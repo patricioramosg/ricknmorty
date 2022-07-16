@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "get_schwifty";
+  src: local("get_schwifty"),
+    url("./fonts/get_schwifty.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+.card{
+  max-width: 1000px;
+  background-color: rgba(74, 3, 141, 0.097);
+  color: aliceblue;
+}
+
+body{
+  background: linear-gradient(0deg, rgba(66,17,96,1) 0%, rgba(70,0,105,1) 26%, rgba(55,0,89,1) 48%, rgba(0,0,0,1) 91%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.intro{
+  height: 100vh;
+}
+
+.intro video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar img{
+  width: 200px;
+  border-radius: 15px;
+
+}
